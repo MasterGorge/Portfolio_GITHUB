@@ -1,0 +1,25 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/207860.jpg');
+    background-size: cover;
+}
+
+.veille{
+    border-radius: 10px;
+    background-color: rgb(58, 53, 53);
+    height: 500px;
+    width: auto;
+    color: white;
+    margin: 10px;
+    padding: 40px;
+
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.titre{
+    color: white;
+}
+

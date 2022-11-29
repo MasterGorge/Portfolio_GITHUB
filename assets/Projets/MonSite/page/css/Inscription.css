@@ -1,0 +1,18 @@
+fieldset{
+    width:400px; 
+    margin:0 auto; 
+    margin-top:10%;
+    background-color:rgb(208, 14, 14);
+    border-radius:5px;
+    }
+body{
+    
+    background: url("http://choualbox.com/Img/1611426483399.jpg");
+    background-size: cover;
+    color: white;
+}   
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+
+
+<html>
+    <head>
+ <meta charset="UTF-8">
+ <title>Ma page</title> 
+ <link  rel="stylesheet" href="Inscription.css"/> 
+ 
+    </head> 
+ <body >
+   
+     <section class="body">
+<form onsubmit="verify()" action="NewformulairePhp.php" method="post"> 
+    <fieldset> 
+        
+        <table> 
+            <h1>Inscription</h1>
+        <tr> <td>Nom</td> 
+            <td><input type="text" name="nom" value="" placeholder="Tapez votre nom"  /></td> 
+            <td>*</td> 
+        </tr> 
+        <tr> <td>Nom d'utilisateur</td> 
+            <td><input type="text" name="nom-utilisateur" value="" /></td> 
+            <td>*</td> 
+        </tr> 
+        <tr> <td>Adresse Email</td> 
+            <td><input type="text" name="email" value="" /></td> 
+            <td>*</td> 
+        </tr> 
+        <tr> <td>Date de naissance</td> 
+            <td><input type="date" name="date" value="" /></td> 
+            <td>*</td> 
+        </tr> 
+        <tr> <td>Mot de passe</td> <td><input id="password" type="password" name="password" value="" /></td> 
+            <td>*</td> 
+        </tr> <tr> <td>Confirmez le mot de passe</td> 
+            <td><input id="password" type="password" name="password" value="" oninput="verify()"/></td> 
+            <td>*<label id ="msg"></label></td> 
+        </tr> 
+        <tr> 
+            <td></td> 
+            <td><input type="submit" value="Valider" class="classe" /> 
+                <input type="reset" value="Annuler" class="classe"/>
+            </td>
+             <td></td> 
+            </tr> 
+        </table> 
+    </fieldset> 
+</form> 
+</section>
+</body> 
+</html>
+
+
